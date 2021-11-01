@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(14, 14, 14);
+}
+
+h1{
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 10px;
+    justify-self: center;
+    align-self: center;
+    color: red;
+    text-decoration: honeydew;
+}
+.script{
+    font-size: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    color: black;
+    animation: 5s calculadora infinite alternate-reverse;
+}
+
+@keyframes calculadora{
+    from{
+        background-color: green;
+        color: rgb(0, 36, 0);
+    }
+    to{
+        background-color: rgb(0, 184, 0);
+        color: rgb(0, 0, 0);
+    }
+
+}
